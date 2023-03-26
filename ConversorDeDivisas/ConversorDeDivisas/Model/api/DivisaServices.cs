@@ -17,7 +17,7 @@ namespace ConversorDeDivisas.Model.api
         private static readonly string
         URL_BASE = "https://openexchangerates.org/api/";
         private static readonly string
-        APP_ID = "e77f99c02f404d34a3631b67223d85e5";
+        APP_ID = "";
 
         public static async Task<RespuestaService> getTasasConversion()
         {
